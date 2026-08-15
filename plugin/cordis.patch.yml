@@ -1,0 +1,6 @@
+# dsh-quick-image-editor bundle layer: inserts its own host-tree row, which the
+# client-modules service scans (via the package's dsh.client declaration) and
+# wires into the browser boot graph.
+- insert:
+    - id: quick-image-editor
+      name: 'dsh-quick-image-editor'
